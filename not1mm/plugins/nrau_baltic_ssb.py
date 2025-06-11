@@ -19,6 +19,19 @@ name = "NRAU-Baltic SSB"
 cabrillo_name = "NRAU-BALTIC-SSB"
 mode = "SSB"
 
+columns = [
+    "YYYY-MM-DD HH:MM:SS",
+    "Call",
+    "Freq (KHz)",
+    "Mode",
+    "Snt",
+    "Rcv",
+    "SentNr",
+    "RcvNr",
+    "Exchange1",
+    "PTS",
+]
+
 advance_on_space = [True, True, True, True, True]
 
 # 1 once per contest, 2 work each band, 3 each band/mode, 4 no dupe checking
@@ -256,7 +269,7 @@ def process_esm(self, new_focused_widget=None, with_enter=False):
         return
 
     if self.other_2.hasFocus():
-        self.log_contact()
+        self.save_contact()
         self.callsign.setFocus()
         return
 

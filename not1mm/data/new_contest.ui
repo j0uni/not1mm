@@ -494,27 +494,12 @@
      </item>
      <item>
       <property name="text">
-       <string>NAVAL</string>
-      </property>
-     </item>
-     <item>
-      <property name="text">
        <string>NRAU BALTIC CW</string>
       </property>
      </item>
      <item>
       <property name="text">
        <string>NRAU BALTIC SSB</string>
-      </property>
-     </item>
-     <item>
-      <property name="text">
-       <string>OK OM DX</string>
-      </property>
-     </item>
-     <item>
-      <property name="text">
-       <string>OK DX RTTY</string>
       </property>
      </item>
   </widget>
